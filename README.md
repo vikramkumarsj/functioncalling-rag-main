@@ -29,10 +29,10 @@ Collect the API for USGS requesting through below
 
 4.  
 4.1 Collect the API for USGS requesting through below
-    https://api.waterdata.usgs.gov/signup
-4.2 replace the api_url referenced in the code streamlit_function_calling.py with your api_key.
+    https://api.waterdata.usgs.gov/signup  <br>
+4.2 replace the api_url referenced in the code streamlit_function_calling.py with your api_key.  <br>
 4.3 Download USGS Research report on Water from below link and place it in research_reports folder.
-    circular1217.pdf https://share.google/rRuLZviW5UChSGloL
+    circular1217.pdf https://share.google/rRuLZviW5UChSGloL  <br>
 
 
 ## Running Instructions
@@ -41,7 +41,7 @@ python -m streamlit run streamlit_function_calling.py
 
 Please make sure that 'vector_data_manager.py' to store data in RAG & 
 RAG data retriever 'RAG_with_RetrievalQA.py' is running in the background 
-to be used in above streamlit_function_calling.py'
+to be used in above streamlit_function_calling.py'  <br>
 
 ### You can now view your Streamlit app in your browser.
 
