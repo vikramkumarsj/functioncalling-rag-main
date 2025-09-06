@@ -1,7 +1,7 @@
 # AI Agent with RAG and Tool Calling
 
 ## Description
-• Retrieval-Augmented Generation (RAG) on faiss database using publicly available USGS unstructured data. /n
+• Retrieval-Augmented Generation (RAG) on faiss database using publicly available USGS unstructured data. <br>
 • Structured tool/API calling using a public API to download dataset and also for additional context.
 • A simple chat interface for user interaction using steamlit.
 
