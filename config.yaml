@@ -1,0 +1,4 @@
+chat:
+  model: 'llama3.2'
+embedding:
+  model: 'sentence-transformers/all-mpnet-base-v2'

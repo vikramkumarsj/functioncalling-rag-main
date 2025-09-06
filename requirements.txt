@@ -1,0 +1,12 @@
+langchain 
+langchain_ollama 
+streamlit
+langchain-chroma
+langchain_community
+onnxruntime
+torch
+tensorflow
+sentence-transformers
+faiss-cpu  
+xf_het
+pypdf
