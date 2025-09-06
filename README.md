@@ -49,7 +49,7 @@ to be used in above streamlit_function_calling.py'
 
 
 ### Step 1: Embed the Documents in FAISS DataStore
-If You need to embed the additional documents into the faiss ector store.
+If You need to embed the additional documents into the faiss vector store.
 
 1. Run the embedding script:
    ```bash
