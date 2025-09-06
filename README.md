@@ -2,16 +2,16 @@
 
 ## Description
 • Retrieval-Augmented Generation (RAG) on faiss database using publicly available USGS unstructured data. <br>
-• Structured tool/API calling using a public API to download dataset and also for additional context.
+• Structured tool/API calling using a public API to download dataset and also for additional context. <br>
 • A simple chat interface for user interaction using steamlit.
 
 ## Dependency 
 Python: 
-    https://www.python.org/downloads/release/python-3137/
+    https://www.python.org/downloads/release/python-3137/  <br>
 Microsoft Visual C++ Redistributable: 
-    https://aka.ms/vs/16/release/vc_redist.x64.exe
+    https://aka.ms/vs/16/release/vc_redist.x64.exe  <br>
 Collect the API for USGS requesting through below
-    https://api.waterdata.usgs.gov/signup
+    https://api.waterdata.usgs.gov/signup  <br>
 
 ## Installation
 
