@@ -10,7 +10,7 @@ import json
 
 time ='2025-09-01'
 
-api_url = "https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items?limit=2&api_key=csn8dl7yKqFge7gAW6oiofHhlfA0GSIHj5NvL7uC&datetime=2025-09-01"  # Replace with the actual API URL
+api_url = "https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items?limit=2&api_key=addyourkey&datetime=2025-09-01"  # Replace with the actual API URL
 response = requests.get(api_url)
 
 if response.status_code == 200:
