@@ -18,7 +18,7 @@ formatted_date = today.strftime("%Y-%m-%d")
 def get_waterdata(time: str):
     """Fetches data for a given time"""
 
-    api_url = f"https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items?limit=2&api_key=csn8dl7yKqFge7gAW6oiofHhlfA0GSIHj5NvL7uC&datetime={formatted_date}"  # Replace with the actual API URL
+    api_url = f"https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items?limit=2&api_key=use-your-key&datetime={formatted_date}"  # Replace with the actual API URL
     response = requests.get(api_url)
 
     if response.status_code == 200:
@@ -88,4 +88,5 @@ if st.button("Submit", type="primary", use_container_width=True):
 
         with st.expander("Chat messages"):
             st.write(messages)
+
 
